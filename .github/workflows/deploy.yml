@@ -43,8 +43,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v2
         with:
-          publish_dir: ./my-resume-app/build
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./my-resume-app/build
+            github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
 
 
