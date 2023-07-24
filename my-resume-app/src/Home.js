@@ -3,9 +3,9 @@ import { Layout, Menu} from 'antd';
 import Sider from 'antd/es/layout/Sider';
 import React from 'react';
 import { UserOutlined } from '@ant-design/icons';
-import { Divider, Steps, Timeline  } from 'antd';
+import { Divider, Steps} from 'antd';
 
-const { Header, Content } = Layout;
+const { Content } = Layout;
 const { Step } = Steps;
 const Home = () => {
 
