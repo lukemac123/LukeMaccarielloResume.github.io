@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <Layout>
       
-        <Sider width={200} theme="dark" style={{  height: '150vh' }}>
+        <Sider width={200} theme="dark" style={{  height: '155vh' }}>
           <Menu className='Menu' theme="dark" mode="vertical" defaultSelectedKeys={['1']} style={{ height: '100%', borderRight: 0 }}>
             <Menu.Item key="1">Home</Menu.Item>
             <Menu.Item key="2">Contact</Menu.Item>
