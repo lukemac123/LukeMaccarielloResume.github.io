@@ -2,3 +2,19 @@
   text-align: center;
 }
 
+.Menu {
+
+text-align: center;
+
+}
+
+.header{
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: large;
+}
+
+.Profile_Picture{
+font-size: 60px;
+}
