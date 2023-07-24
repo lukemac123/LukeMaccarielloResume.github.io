@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LukeMaccarielloResume/static/css/main.dec61543.css",
+    "main.js": "/LukeMaccarielloResume/static/js/main.f34bf060.js",
+    "static/js/787.3d5c1344.chunk.js": "/LukeMaccarielloResume/static/js/787.3d5c1344.chunk.js",
+    "index.html": "/LukeMaccarielloResume/index.html",
+    "main.dec61543.css.map": "/LukeMaccarielloResume/static/css/main.dec61543.css.map",
+    "main.f34bf060.js.map": "/LukeMaccarielloResume/static/js/main.f34bf060.js.map",
+    "787.3d5c1344.chunk.js.map": "/LukeMaccarielloResume/static/js/787.3d5c1344.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dec61543.css",
+    "static/js/main.f34bf060.js"
+  ]
+}
