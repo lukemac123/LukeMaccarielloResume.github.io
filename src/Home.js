@@ -15,14 +15,16 @@ const Home = () => {
         <Sider width={200} theme="dark" style={{  height: '165vh' }}>
           <Menu className='Menu' theme="dark" mode="vertical" defaultSelectedKeys={['1']} style={{ height: '100%', borderRight: 0 }}>
             <Menu.Item key="1">Home</Menu.Item>
-            <Menu.Item key="2">Contact</Menu.Item>
           </Menu>
         </Sider>
         <Content>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '-30px', fontsize: '60px'}}>
           <h2 className='Profile_Picture'><UserOutlined /></h2>
           <h2 style={{marginTop: '-40px', fontSize: '18px' }}>Luke S. Maccariello</h2>
-          <h2 style={{ fontSize: '18px'}}>12 Regal Road Manalapan, New Jersey 07726</h2>
+          <h2 style={{ fontSize: '18px'}}>lukemac1111@gmail.com • (732-713-7575)</h2>
+          <h2 style={{ fontSize: '18px'}}>12 Regal Road • Manalapan, New Jersey 07726</h2>
+    
+          
         </div>
 
         <div className='Education' style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
