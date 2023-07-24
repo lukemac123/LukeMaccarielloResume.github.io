@@ -1,5 +1,5 @@
 {
-  "homepage": "https://lukemac123.github.io/LukeMaccarielloResume.github.io/",
+  "homepage": "https://lukemac123.github.io/LukeMaccarielloResume",
   "name": "my-resume-app",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
