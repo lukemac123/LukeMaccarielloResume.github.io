@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <Layout>
       
-        <Sider width={200} theme="dark" style={{  height: '165vh' }}>
+        <Sider width={200} theme="dark" style={{  height: '175vh' }}>
           <Menu className='Menu' theme="dark" mode="vertical" defaultSelectedKeys={['1']} style={{ height: '100%', borderRight: 0 }}>
             <Menu.Item key="1">Home</Menu.Item>
           </Menu>
@@ -31,11 +31,12 @@ const Home = () => {
         <h3 style={{fontSize: '35px', marginTop: '5px' }}>Education</h3>
         <Divider style={{ borderColor: 'black', borderWidth: '3px', marginTop: '-30px'}} /> 
         <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', marginTop:'-30px' }}>
-          <h2 style={{ fontSize: '15px' }}>University of Delaware Newark, DE</h2>
-          <h2 style={{ fontSize: '15px'}}>Graduated: May 2022</h2>
+          <p style={{ fontSize: '18px' }}>University of Delaware</p>
+          <p style={{ marginRight: '900px', fontSize: '18px' }}>Newark, DE</p>
+          <p style={{ fontSize: '18px'}}>Graduated: May 2022</p>
       </div>
-          <h2 style={{fontSize: '15px'}}>Computer Science Major Concentration in Artifical Intelligence and Robotics</h2>
-          <h2 style={{fontSize: '15px'}}>College of Engineering</h2>       
+          <p style={{fontSize: '18px'}}>Computer Science Major Concentration in Artifical Intelligence and Robotics</p>
+          <p style={{fontSize: '18px'}}>College of Engineering</p>       
         </div>
         <div className='Work_Experience' style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginTop:'30px'}}>
         <h3 style={{fontSize: '35px', marginTop: '5px' }}>Work Experience</h3>
@@ -45,8 +46,8 @@ const Home = () => {
             <Step   title="BioMedical Engineering and Imaging Institute, New York, NY"  
             description={
               <>
-                <p>Machine Learning Engineer</p>          
-                <ul>
+                <p style= {{fontSize: '18px'}} >Machine Learning Engineer</p>          
+                <ul style= {{fontSize: '18px'}}>
                   <li>Worked with Valentin Fauveau on learning AI and Machine Learning concepts.</li>
                   <li>Spent the summer working on a Kaggle project for detecting COVID-19 in X-rays.</li>
                   <li>Developed knowledge on how to effectively train a model.</li>
@@ -58,11 +59,11 @@ const Home = () => {
             }
             status="process"
           />
-            <Step   title="Proviniti, New York City, New York"
+            <Step title="Proviniti, New York City, New York"            
               description={
                 <>
-                  <p>Software Engineer</p>
-                  <ul>
+                  <p style= {{fontSize: '18px'}}>Software Engineer</p>
+                  <ul style= {{fontSize: '18px'}}>
                     <li>Worked as a Front-End Developer to develop a website used for Employees to enter in their Timesheets</li>
                     <li>Used Figma to design projects for the best UI/UX experience which was levaraged to the Front-End software</li>
                     <li>Called Api service which would be utilized through buttons on the Front-End</li>
@@ -72,6 +73,7 @@ const Home = () => {
                   </ul>
                 </>
               }
+              
               status="process"/>
           </Steps>
           </div>
@@ -79,7 +81,7 @@ const Home = () => {
         <h3 style={{fontSize: '35px', marginTop: '10px' }}>Honors/Activites</h3>
         <Divider style={{ borderColor: 'black', borderWidth: '3px', marginTop: '-30px'}} />
                     <h2 style={{ marginTop: '-10px' }}>Deans List</h2>
-                <ul style={{ marginTop: '-10px' , fontSize:'15px'}}>
+                <ul style={{ marginTop: '-10px' , fontSize:'18px'}}>
                     <li>Spring 2022</li>
                     <li>Fall 2021</li>
                     <li>Spring 2020</li>
@@ -89,7 +91,7 @@ const Home = () => {
         <div className='Skills' style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginTop:'30px'}}>
         <h3 style={{fontSize: '35px', marginTop: '5px' }}>Skills</h3>
         <Divider style={{ borderColor: 'black', borderWidth: '3px', marginTop: '-30px'}} /> 
-        <ul style={{ marginTop: '-10px', fontSize:'15px'}}>
+        <ul style={{ marginTop: '-10px', fontSize:'18px'}}>
                     <li>Advanced skills in Java, Python, C++, Lisp, PHP, Reactjs, Typescript</li>
                     <li>Advanced knowledge of OpenCV and PyTorch</li>
                     <li>Understanding of SQL and Database Administration</li>
