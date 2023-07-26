@@ -4,10 +4,16 @@ import Sider from 'antd/es/layout/Sider';
 import React from 'react';
 import { UserOutlined } from '@ant-design/icons';
 import { Divider, Steps} from 'antd';
+import { useNavigate } from 'react-router-dom';
 
 const { Content } = Layout;
 const { Step } = Steps;
+
 const Home = () => {
+  const navigate = useNavigate();
+  const nav =() => {
+  navigate('/contact');
+  };
 
   return (
     <Layout>
@@ -15,6 +21,9 @@ const Home = () => {
         <Sider width={200} theme="dark" style={{  height: '175vh' }}>
           <Menu className='Menu' theme="dark" mode="vertical" defaultSelectedKeys={['1']} style={{ height: '100%', borderRight: 0 }}>
             <Menu.Item key="1">Home</Menu.Item>
+              <Menu.Item key="2" onClick={nav}> 
+              Contact Me
+              </Menu.Item>
           </Menu>
         </Sider>
         <Content>
@@ -31,13 +40,17 @@ const Home = () => {
         <h3 style={{fontSize: '35px', marginTop: '5px' }}>Education</h3>
         <Divider style={{ borderColor: 'black', borderWidth: '3px', marginTop: '-30px'}} /> 
         <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', marginTop:'-30px' }}>
-          <p style={{ fontSize: '18px' }}>University of Delaware</p>
-          <p style={{ marginRight: '900px', fontSize: '18px' }}>Newark, DE</p>
+          <p style={{ fontSize: '18px', fontWeight:'Bold'}}>University of Delaware</p>
+          <p style={{ marginRight: '830px', fontSize: '18px' }}>Newark, DE</p>
           <p style={{ fontSize: '18px'}}>Graduated: May 2022</p>
-      </div>
-          <p style={{fontSize: '18px'}}>Computer Science Major Concentration in Artifical Intelligence and Robotics</p>
-          <p style={{fontSize: '18px'}}>College of Engineering</p>       
+      </div >
+      <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', marginTop:'-10px' }}>
+          <p style={{fontSize: '18px', fontWeight:'Bold'}}>Computer Science Major</p>
+           <p style={{fontSize: '18px', marginRight: '750px',}}> Concentration in Artifical Intelligence and Robotics</p>
+            </div>  
+            <p style={{fontSize: '18px', fontWeight:'Bold'}}>College of Engineering</p> 
         </div>
+          
         <div className='Work_Experience' style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginTop:'30px'}}>
         <h3 style={{fontSize: '35px', marginTop: '5px' }}>Work Experience</h3>
         <Divider style={{ borderColor: 'black', borderWidth: '3px', marginTop: '-30px'}} /> 
