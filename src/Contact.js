@@ -67,7 +67,7 @@ const Contact = () => {
                     style={{ fontSize: '16px', padding: '5px'}}
                   />
                 </div>
-                <Button type="submit" style={{ marginTop: '10px', fontSize: '16px', backgroundColor: 'lightgrey'}}>
+                <Button onClick={handleSubmit} type="submit" style={{ marginTop: '10px', fontSize: '16px', backgroundColor: 'lightgrey'}}>
                   Send Email
                 </Button>
               </form>
